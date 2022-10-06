@@ -1,7 +1,7 @@
 package unitTest;
 import common.CalcTrackAndField;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import static org.junit.Assert.assertEquals;
 
 public class TestCalcTrackAndField {
 
@@ -21,7 +21,7 @@ public class TestCalcTrackAndField {
         //Assert
         int expected = 4290;
 
-        assertEquals(expected, actual);
+        Assertions.assertEquals(expected, actual);
     }
 
     @Test
@@ -40,7 +40,7 @@ public class TestCalcTrackAndField {
         //Assert
         int expected = 861;
 
-        assertEquals(expected, actual);
+        Assertions.assertEquals(expected, actual);
     }
 
     @Test
@@ -59,7 +59,7 @@ public class TestCalcTrackAndField {
         //Assert
         int expected = 0;
 
-        assertEquals(expected, actual);
+        Assertions.assertEquals(expected, actual);
     }
 
     @Test
@@ -78,7 +78,7 @@ public class TestCalcTrackAndField {
         //Assert
         int expected = 3331;
 
-        assertEquals(expected, actual);
+        Assertions.assertEquals(expected, actual);
     }
 
     @Test
@@ -97,7 +97,7 @@ public class TestCalcTrackAndField {
         //Assert
         int expected = 850;
 
-        assertEquals(expected, actual);
+        Assertions.assertEquals(expected, actual);
     }
 
     @Test
@@ -116,7 +116,7 @@ public class TestCalcTrackAndField {
         //Assert
         int expected = 0;
 
-        assertEquals(expected, actual);
+        Assertions.assertEquals(expected, actual);
     }
 
     @Test
@@ -135,7 +135,7 @@ public class TestCalcTrackAndField {
         //Assert
         int expected = 3537;
 
-        assertEquals(expected, actual);
+        Assertions.assertEquals(expected, actual);
     }
 
     @Test
@@ -154,7 +154,7 @@ public class TestCalcTrackAndField {
         //Assert
         int expected = 792;
 
-        assertEquals(expected, actual);
+        Assertions.assertEquals(expected, actual);
     }
 
     @Test
@@ -173,7 +173,7 @@ public class TestCalcTrackAndField {
         //Assert
         int expected = 0;
 
-        assertEquals(expected, actual);
+        Assertions.assertEquals(expected, actual);
     }
 
 }
