@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 
-public class testCalculateDeca1500M {
+public class TestCalculateDeca1500M {
     @Test
     public void testDeca1500M() {
 //Arrange
