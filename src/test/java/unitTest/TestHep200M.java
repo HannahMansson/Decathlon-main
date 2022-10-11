@@ -10,7 +10,7 @@ public class TestHep200M {
     public void testHep200M(){
 
         //Arrange
-       // double A = 4.99087; test att se om det försvinner
+        double A = 4.99087; //Test Test
         double B = 42.5;
         double C = 1.81;
         double time = 20.5;
