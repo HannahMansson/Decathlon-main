@@ -52,7 +52,7 @@ public class unitTests {
         double actual = myInput.returnResult();
         //Assert
         double expected = 11.0;
-        assertEquals(expected, actual);
+        assertEquals(expected, actual);// test
     }
 
     @Test   //testar input av namn
