@@ -13,7 +13,7 @@ public class Deca100M {
 	InputResult inputResult = new InputResult();
 
 	// Calculate the score based on time. All running events.
-	public void calculateResult(double runningTime) {
+	public int calculateResult(double runningTime) {
 
 		while (active) {
 
@@ -37,6 +37,7 @@ public class Deca100M {
 		}
 		System.out.println("The result is " + score);
 
+		return score;
 	}
 
 }

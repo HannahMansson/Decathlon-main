@@ -44,7 +44,7 @@ public class SelectDiscipline {
 	HeptLongJump hepLongJump = new HeptLongJump();
 	HeptShotPut hepShotPut = new HeptShotPut();
 	HeptJavelinThrow hepJavelinThrow = new HeptJavelinThrow();
-	
+
 	//Receive input	of selection of discipline.
 
 	public void inputSelection() {

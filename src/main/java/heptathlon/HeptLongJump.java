@@ -14,7 +14,7 @@ public class HeptLongJump {
 	InputResult inputResult = new InputResult();
 
 	// Calculate the score based on distance and height. Measured in meters.
-	public void calculateResult(double distance) {
+	public int calculateResult(double distance) {
 
 		while (active) {
 
@@ -23,7 +23,7 @@ public class HeptLongJump {
 				if (distance < 0) {
 					System.out.println("Value too low");
 					distance = inputResult.enterResult();
-				} else if (distance > 400) {
+				} else if (distance > 1400) {
 
 					System.out.println("Value too high");
 					distance = inputResult.enterResult();
@@ -39,6 +39,7 @@ public class HeptLongJump {
 			}
 		}
 		System.out.println("The result is: " + score);
+		return score;
 	}
 
 }

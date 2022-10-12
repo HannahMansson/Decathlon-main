@@ -1,20 +1,20 @@
 package unitTest;
-
 import common.CalcTrackAndField;
 import org.junit.jupiter.api.Test;
 import static org.junit.Assert.assertEquals;
 
-public class TestCalcTrackAndField {
+public class TestHep200M {
 
     @Test
 
-    public void testCalculateField() {
+    public void testHep200M(){
 
-        //Arrange (testdata)
-        double A = 25.4347;
-        double B = 18;
+        //Arrange
+        double A = 4.99087;
+        double B = 42.5;
         double C = 1.81;
-        double time = 11.0;
+        double time = 20.5;
+
         CalcTrackAndField calc = new CalcTrackAndField();
 
         //Act
@@ -23,7 +23,7 @@ public class TestCalcTrackAndField {
 
         //Assert
 
-        int expected = 861;
+        int expected = 1342;
 
 
 
