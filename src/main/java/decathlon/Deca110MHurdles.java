@@ -13,22 +13,22 @@ public class Deca110MHurdles {
 	InputResult inputResult = new InputResult();
 
 	// Calculate the score based on time. All running events.
-	public void calculateResult(double runningTime) {
+	public int calculateResult(double runningTime) {
 
 		while (active) {
 
 			try {
-				// Acceptable values.
+				/* Acceptable values.
 				if (runningTime < 10) {
 					System.out.println("Value too low");
 					runningTime = inputResult.enterResult();
 				} else if (runningTime > 28.5) {
 					System.out.println("Value too high");
 					runningTime = inputResult.enterResult();
-				} else {
+				} else {*/
 					score = calc.calculateTrack(A, B, C, runningTime);
 					active = false;
-				}
+				//}
 			} catch (Exception e) {
 
 				System.out.println("Please enter numbers");
@@ -36,6 +36,7 @@ public class Deca110MHurdles {
 		}
 		System.out.println("The result is " + score);
 
+		return score;
 	}
 
 }
