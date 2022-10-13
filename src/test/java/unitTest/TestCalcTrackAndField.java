@@ -392,6 +392,26 @@ public class TestCalcTrackAndField {
         Assertions.assertEquals(expected, actual);
 
     }
+    @Test
+    public void testDecaPoleVault(){
+
+        //Arrange
+        double A = 56.0211;
+        double B = 1.5;
+        double C = 1.05;
+        double distance = 16.5;
+        CalcTrackAndField calc = new CalcTrackAndField();
+
+        //Act
+
+        int actual = calc.calculateField(A, B, C, distance);
+
+        //Assert
+
+        int expected = 962;
+
+        assertEquals(expected, actual);
+    }
 
     @Test//testar formeln för beräkning av Field grenar med data för Heptshotput
     public void testCalcTrackAndFieldField() {
@@ -407,4 +427,5 @@ public class TestCalcTrackAndField {
         int expected = 962;
         Assertions.assertEquals(expected, actual);
     }
+
 }
