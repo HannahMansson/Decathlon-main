@@ -19,18 +19,9 @@ public class Deca400M {
 		while (active) {
 
 			try {
-				/* Acceptable values.
-				if (runningTime < 20) {
-					System.out.println("Value too low");
-					runningTime = inputResult.enterResult();
-				} else if (runningTime > 100) {
-					System.out.println("Value too high");
-					runningTime = inputResult.enterResult();
-				} else {*/
-
 					score = calc.calculateTrack(A, B, C, runningTime);
 					active = false;
-				//}
+
 			} catch (Exception e) {
 
 				System.out.println("Please enter numbers");
