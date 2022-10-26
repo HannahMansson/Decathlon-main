@@ -9,6 +9,7 @@ public class Main {
 		while (choice = true) {
 			InputName inputName = new InputName();
 			inputName.addCompetitor();
+			System.out.println(inputName.getName());
 
 			SelectDiscipline selectDiscipline = new SelectDiscipline();
 			selectDiscipline.inputSelection();
